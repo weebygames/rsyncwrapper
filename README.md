@@ -76,6 +76,10 @@ To specify an SSH private key other than the default for this host. Example, `"~
 
 Ignore host key checking iff set to `false`. Example, `hostKeyChecking: false`
 
+##### `passwordAuthentication [Boolean]`
+
+Disable ssh password authentication iff set to `false`. Example, `passwordAuthentication: false`
+
 ##### `recursive [Boolean] default: false`
 
 Recurse into directories. This is `false` by default which means only files in the `src` root are copied. Equivalent to the `--recursive` rsync command line flag.
